@@ -23,7 +23,7 @@ def test_normal_year_long_month():
 
 
 def test_normal_year_normal_month():
-    assert number_of_days_in_month.get_no_of_days(normal_year_normal_month_date) == long_month
+    assert number_of_days_in_month.get_no_of_days(normal_year_normal_month_date) == normal_month
 
 
 def test_normal_year_short_month():
